@@ -6,9 +6,12 @@ class P extends Component {
     render() {
         return (
             <p>
-                {this.props.Title} {this.props.num}
+                {this.props.Title} {this.props.num} 
+            
+            <div>
+                And: 9 + 10 = {this.props.myFunc(11, 10)}
+            </div>
             </p>
-
         );
     }
 }
@@ -27,13 +30,16 @@ const A = () => (
 
 
 function App() {
+  const add = (a, b) => a + b;
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-              <P Title="This is the title"></P>
-              <P Title="I learn more from personal projects"></P>
-              <P Title="Number of days wasted on degree: " num={720}></P>
+              <P Title="Number of days wasted on irrelevant classes: "
+                  num={720}
+                  myFunc={add}
+              ></P>
+
         <A></A>
       </header>
     </div>
