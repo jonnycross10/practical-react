@@ -1,31 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import { Component } from 'react';
+import P from './Components/P';
+import A from './Components/A';
 
-class P extends Component {
-    render() {
-        return (
-            <p>
-                {this.props.Title} {this.props.num} 
-            
-            <div>
-                And: 9 + 10 = {this.props.myFunc(11, 10)}
-            </div>
-            </p>
-        );
-    }
-}
 
-const A = () => (
-    <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-    >
-        Learn to code React
-    </a>
-    );
+
+
 
 
 
