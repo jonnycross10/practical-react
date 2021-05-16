@@ -3,6 +3,7 @@ import './App.css';
 import { Component } from 'react';
 import P from './Components/P';
 import A from './Components/A';
+import Counter from './Components/Counter';
 
 
 
@@ -20,6 +21,7 @@ function App() {
                   num={720}
                   myFunc={add}
               ></P>
+              <Counter> </Counter>
 
         <A></A>
       </header>
