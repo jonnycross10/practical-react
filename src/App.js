@@ -11,8 +11,9 @@ import ImageSlider from './Components/ImageSlider';
 
 
 
-
 function App() {
+
+   
   const add = (a, b) => a + b;
   return (
     <div className="App">
