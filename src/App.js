@@ -4,6 +4,7 @@ import { Component } from 'react';
 import P from './Components/P';
 import A from './Components/A';
 import Counter from './Components/Counter';
+import ImageSlider from './Components/ImageSlider';
 
 
 
@@ -24,7 +25,8 @@ function App() {
               <Counter> </Counter>
 
         <A></A>
-      </header>
+          </header>
+          <ImageSlider></ImageSlider>
     </div>
   );
 }
